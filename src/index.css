@@ -97,6 +97,28 @@ body , .App {
 
 }
 
+.monkey{
+  /* background-color: red; */
+  animation: jump 2s ease-in-out;
+}
+
+@keyframes jump {
+  0%{
+    transform: rotateY(0deg);
+  }
+  /* 25%{
+    transform: rotateY(180deg);
+  } */
+  50%{
+    transform: rotateY(180deg);
+  }
+  /* 75%{
+    transform: rotateY(180deg);
+  } */
+  100%{
+    transform: rotateY(0deg);
+  }
+}
 
 .monkey img{
   width: 45rem;
